@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand text-white" href="#">EMPLOYEE DASHBOARD</a>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/add">Add Employee</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="div1 container">
+        <br><br><h1 class="text-center">EMPLOYEE DETAILS</h1>
+        <br>
+     </div>
+
+     <!-- cards -->
+      <!-- employee details -->
+  <div class="row row-cols-1 row-cols-md-5 g-4 employee-info">
+    <% path.forEach(function(employee) { %>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title"><span class="emp-name"><%= employee.name %></span></h5>
+          <p class="card-text"><strong>Designation:</strong><span class="designation-clr"> <%= employee.designation %></span> </p>
+          <p class="card-text"><strong>Location:</strong> <span class="location-clr "> <%= employee.location %></span></p>
+          <p class="card-text"><strong>Salary:</strong><span class="salary-clr"> <%= employee.salary %></span> </p>
+          <a href="/edit/<%= employee.id %>"><button class="edit">Edit</button></a>         
+          <a href="/delete/<%= employee.id %>"><button class="delete">Delete</button></a>
+        </div>
+      </div>
+    </div>
+    <% }); %>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: url("/images/main-background-image.jpg");
+    background-size: cover;  
+    background-attachment: fixed;
+}
+
+.container{
+    margin-top: 10%;
+    
+}
+.container .form h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.container .form{
+    margin: 40px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(240, 255, 255, 0.379);
+    width: 500px;
+    height: auto;
+}
+
+.container .form label{
+    /* color: white !important; */
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container .form input{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+
+}
+.container .form button{
+    width: 100%;
+    margin-top: 10px;
+    
+}

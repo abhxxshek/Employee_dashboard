@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: url("/images/main-background-image.jpg");
+    background-size: cover;  
+    background-attachment: fixed;
+}
+.div1
+{
+    color: rgb(149, 230, 230);
+    height: 200px;
+}
+.employee-info{
+    margin-right: 0px;
+    margin-left: 2px;
+    margin-bottom: 100px;
+}
+.employee-info .col .card{
+    
+    background-color:rgba(0, 0, 0, 0.825);
+    color: white !important;
+}
+.emp-name{
+    font-weight:bolder;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua !important;
+}
+.salary-clr{
+    color: green !important;
+}
+.designation-clr{
+    color: orangered !important;
+}
+.location-clr{
+    color:blueviolet !important;
+}
+.edit{
+    background-color: rgb(102, 164, 8);
+    border: 1px solid rgb(102, 164, 8);
+    border-radius:5px;
+    padding: 3px;
+    font-weight: 700;
+}
+.delete{
+    background-color: rgb(164, 5, 5);
+    border: 1px solid rgb(164, 5, 5);
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 700;
+}

@@ -1,0 +1,72 @@
+[
+    {
+      "id":1,
+      "name": "Aravind",
+      "designation": "Software Engineer",
+      "location": "Bengalore",
+      "salary": 80000
+    },
+    {
+        "id":2,
+      "name": "Abhiram",
+      "designation": "Data Analyst",
+      "location": "Delhi",
+      "salary": 40000
+    },
+    {
+        "id":3,
+      "name": "Pooja",
+      "designation": "Project Manager",
+      "location": "Hyderabad",
+      "salary": 90000
+    },
+    {
+        "id":4,
+      "name": "Gowri",
+      "designation": "UI/UX Designer",
+      "location": "Mumbai",
+      "salary": 100000
+    },
+    {
+        "id":5,
+      "name": "Priya",
+      "designation": "DevOps Engineer",
+      "location": "Kolkata",
+      "salary": 68000
+    },
+    {
+        "id":6,
+      "name": "Anjana",
+      "designation": "Business Analyst",
+      "location": "Ahmedabad",
+      "salary": 120000
+    },
+    {
+        "id":7,
+      "name": "Arun",
+      "designation": "Quality Assurance Engineer",
+      "location": "Trivandrum",
+      "salary": 50000
+    },
+    {
+        "id":8,
+      "name": "Hari",
+      "designation": "HR Manager",
+      "location": "chennai",
+      "salary": 150000
+    },
+    {
+        "id":9,
+      "name": "Ramjith",
+      "designation": "Backend Developer",
+      "location": "Pune",
+      "salary": 65000
+    },
+    {
+        "id":10,
+      "name": "Akash",
+      "designation": "Frontend Developer",
+      "location": "Trivandrum",
+      "salary": 88000
+    }
+  ]
